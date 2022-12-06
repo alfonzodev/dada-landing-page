@@ -1,0 +1,36 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: $font-display;
+  letter-spacing: 1.7px;
+  width: 175px;
+  height: 65px;
+  padding: 5px 10px;
+}
+
+.btn-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 75px;
+  border: 2px solid $color-primary;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.btn-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 75px;
+  background-color: $color-primary;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 1.75rem;
+  color: $color-white;
+}
