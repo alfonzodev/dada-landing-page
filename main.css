@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300;400&family=Nunito:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #3a4168;
+}
+
+a {
+  text-decoration: none;
+}

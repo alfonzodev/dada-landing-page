@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300;400&family=Nunito:wght@500&display=swap");
+
+$color-primary: #3a4168;
+$color-secondary: #1abaef;
+$color-background: #fefcdd;
+$color-white: #fafafa;
+
+$font-display: "Bangers", cursive;
+$font-body: "Lato", sans-serif;
+$font-title: "Nunito", sans-serif;
+
+$fw-light: 300;
+$fw-regular: 400;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $font-body;
+  color: $color-primary;
+}
+
+a {
+  text-decoration: none;
+}
