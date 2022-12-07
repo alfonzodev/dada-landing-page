@@ -20,6 +20,12 @@
   border-radius: 10px;
   font-weight: 900;
   font-size: 1.75rem;
+  transition: 0.3s;
+}
+
+.btn-light:hover {
+  color: $color-white;
+  background-color: $color-primary;
 }
 
 .btn-dark {
@@ -33,4 +39,11 @@
   font-weight: 900;
   font-size: 1.75rem;
   color: $color-white;
+  transition: 0.3s;
+}
+
+.btn-dark:hover {
+  color: $color-primary;
+  background-color: $color-white;
+  border: 2px solid $color-primary;
 }

@@ -51,10 +51,13 @@ main p {
 
 footer a {
   font-size: 1.75rem;
+  transition: 0.3s;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 
 nav {
-  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -64,7 +67,7 @@ nav {
 
 header {
   width: 85%;
-  margin: 0 auto;
+  margin: 20px auto 40px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -75,10 +78,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  row-gap: 50px;
   align-items: center;
   margin: 0 auto;
   width: 85%;
-  height: 50vh;
 }
 
 .product-info {
@@ -88,7 +91,7 @@ main {
   row-gap: 20px;
   justify-content: center;
   width: 85%;
-  margin: 30px auto 50px;
+  margin: 70px auto 80px;
 }
 .product-info .container {
   width: 100%;
@@ -141,6 +144,12 @@ footer {
   border-radius: 10px;
   font-weight: 900;
   font-size: 1.75rem;
+  transition: 0.3s;
+}
+
+.btn-light:hover {
+  color: #fafafa;
+  background-color: #3a4168;
 }
 
 .btn-dark {
@@ -154,4 +163,11 @@ footer {
   font-weight: 900;
   font-size: 1.75rem;
   color: #fafafa;
+  transition: 0.3s;
+}
+
+.btn-dark:hover {
+  color: #3a4168;
+  background-color: #fafafa;
+  border: 2px solid #3a4168;
 }

@@ -69,5 +69,9 @@ main {
 footer {
   a {
     font-size: 1.75rem;
+    transition: 0.3s;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }

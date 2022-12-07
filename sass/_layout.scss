@@ -1,5 +1,4 @@
 nav {
-  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -9,7 +8,7 @@ nav {
 
 header {
   width: 85%;
-  margin: 0 auto;
+  margin: 20px auto 40px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -20,10 +19,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  row-gap: 50px;
   align-items: center;
   margin: 0 auto;
   width: 85%;
-  height: 50vh;
 }
 
 .product-info {
@@ -33,7 +32,7 @@ main {
   row-gap: 20px;
   justify-content: center;
   width: 85%;
-  margin: 30px auto 80px;
+  margin: 70px auto 80px;
 
   .container {
     width: 100%;
