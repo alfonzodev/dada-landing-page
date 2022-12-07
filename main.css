@@ -20,6 +20,11 @@ header h1 {
   font-size: 3.5rem;
   text-align: center;
 }
+@media screen and (max-width: 520px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
 header img {
   height: 700px;
 }
@@ -31,12 +36,27 @@ main h2 {
   color: #3a4168;
   font-size: 3rem;
 }
+@media screen and (max-width: 520px) {
+  main h2 {
+    font-size: 2rem;
+  }
+}
 main h3 {
   color: #1abaef;
   font-size: 2.5rem;
 }
+@media screen and (max-width: 520px) {
+  main h3 {
+    font-size: 1.75rem;
+  }
+}
 main p {
   font-size: 2rem;
+}
+@media screen and (max-width: 520px) {
+  main p {
+    font-size: 1.5rem;
+  }
 }
 
 .product-info h2 {
@@ -45,6 +65,11 @@ main p {
 .product-info p {
   font-size: 1.75rem;
 }
+@media screen and (max-width: 520px) {
+  .product-info p {
+    font-size: 1.5rem;
+  }
+}
 .product-info p > i {
   font-weight: 300;
 }
@@ -52,6 +77,11 @@ main p {
 footer a {
   font-size: 1.75rem;
   transition: 0.3s;
+}
+@media screen and (max-width: 520px) {
+  footer a {
+    font-size: 1.35rem;
+  }
 }
 footer a:hover {
   text-decoration: underline;
@@ -62,7 +92,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 40px;
+  height: 150px;
+}
+@media screen and (max-width: 500px) {
+  nav {
+    height: 100px;
+    padding: 10px 30px;
+  }
 }
 
 header {
@@ -88,13 +125,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 20px;
+  row-gap: 30px;
   justify-content: center;
   width: 85%;
   margin: 70px auto 80px;
 }
 .product-info .container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 .product-info .container .item {
   display: flex;
@@ -118,8 +158,13 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 20vh;
+  height: 170px;
   background-color: #fefcdd;
+}
+@media screen and (max-width: 520px) {
+  footer {
+    height: 140px;
+  }
 }
 
 .logo {
@@ -133,6 +178,13 @@ footer {
   height: 65px;
   padding: 5px 10px;
 }
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 120px;
+    height: 50px;
+    font-size: 3rem;
+  }
+}
 
 .btn-light {
   display: flex;
@@ -145,6 +197,13 @@ footer {
   font-weight: 900;
   font-size: 1.75rem;
   transition: 0.3s;
+}
+@media screen and (max-width: 500px) {
+  .btn-light {
+    width: 120px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
 }
 
 .btn-light:hover {
@@ -164,6 +223,13 @@ footer {
   font-size: 1.75rem;
   color: #fafafa;
   transition: 0.3s;
+}
+@media screen and (max-width: 500px) {
+  .btn-dark {
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
 }
 
 .btn-dark:hover {

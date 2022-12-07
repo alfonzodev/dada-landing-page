@@ -33,6 +33,10 @@ header {
     font-family: $font-title;
     font-size: 3.5rem;
     text-align: center;
+
+    @media screen and (max-width: 520px) {
+      font-size: 2.5rem;
+    }
   }
   img {
     height: 700px;
@@ -44,13 +48,25 @@ main {
   h2 {
     color: $color-primary;
     font-size: 3rem;
+
+    @media screen and (max-width: 520px) {
+      font-size: 2rem;
+    }
   }
   h3 {
     color: $color-secondary;
     font-size: 2.5rem;
+
+    @media screen and (max-width: 520px) {
+      font-size: 1.75rem;
+    }
   }
   p {
     font-size: 2rem;
+
+    @media screen and (max-width: 520px) {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -60,6 +76,10 @@ main {
   }
   p {
     font-size: 1.75rem;
+
+    @media screen and (max-width: 520px) {
+      font-size: 1.5rem;
+    }
   }
   p > i {
     font-weight: 300;
@@ -70,6 +90,10 @@ footer {
   a {
     font-size: 1.75rem;
     transition: 0.3s;
+
+    @media screen and (max-width: 520px) {
+      font-size: 1.35rem;
+    }
   }
   a:hover {
     text-decoration: underline;
